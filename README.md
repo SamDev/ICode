@@ -12,4 +12,5 @@ CodeIgniter is really awesome but the problem is about development, PHP getting 
 4 - Add more libraries to the core <br />
 5 - Allow the coder to have more control of his application <br />
 6 - Develop Hooks System since it's very poor <br />
-and much more
+7 - Provide a better Documentation <br />
+and much more, in general i want it to be a very good choice for large projects not only small or regular ones
