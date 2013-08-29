@@ -6,10 +6,10 @@ CodeIgniter is really awesome but the problem is about development, PHP getting 
 
 ##Some Targets :
 
-1 - Implement Namespaces
-2 - Develop the Loader
-3 - Provide a better 'View' handling, and add Multi-Themes system
-4 - Add more libraries to the core
-5 - Allow the coder to have more control of his application
-6 - Develop Hooks System since it's very poor
+1 - Implement Namespaces <br />
+2 - Develop the Loader <br />
+3 - Provide a better 'View' handling, and add Multi-Themes system <br />
+4 - Add more libraries to the core <br />
+5 - Allow the coder to have more control of his application <br />
+6 - Develop Hooks System since it's very poor <br />
 and much more
