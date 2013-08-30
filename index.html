@@ -4,56 +4,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Icode Documentation</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/global.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div id="main">
       <header>
-        <h1 class="header">ICode Framework</h1>
-        <p class="header">A PHP Framework based on CodeIgniter Framework, just a step forward</p>
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/SamDev/ICode/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/SamDev/ICode/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/SamDev/ICode">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/SamDev">SamDev</a></p>
-
-
+          <div id="top-nav">
+              <ul class="nav nav-pills">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li class=""><a href="index.html">Get Started</a></li>
+                  <li class=""><a href="index.html">Addons</a></li>
+              </ul>
+          </div>
       </header>
-      <section>
-        <h1>
-<a name="icode-frameword" class="anchor" href="#icode-frameword"><span class="octicon octicon-link"></span></a>ICode Frameword</h1>
-
-<p>A PHP Framework based on CodeIgniter Framework. Since CodeIgniter is not developed for a long while and i really like this Framework so i decided to continue the journey of this awesome Framework and give it a step forward on my own.</p>
-
-<p>CodeIgniter is really awesome but the problem is about development, PHP getting much better everyday and CodeIgniter still worry about PHP4 where actually it's like no one now use PHP4, so my main aim is to move CodeIgniter forward to take a benifit of new features of PHP5.</p>
-
-<h2>
-<a name="some-targets-" class="anchor" href="#some-targets-"><span class="octicon octicon-link"></span></a>Some Targets :</h2>
-
-<p>1 - Implement Namespaces <br>
-2 - Develop the Loader <br>
-3 - Provide a better 'View' handling, and add Multi-Themes system <br>
-4 - Add more libraries to the core <br>
-5 - Allow the coder to have more control of his application <br>
-6 - Develop Hooks System since it's very poor <br>
-7 - Provide a better Documentation <br>
-and much more, in general i want it to be a very good choice for large projects not only small or regular ones</p>
-      </section>
+	  <section id="splash" class="container">
+	    <br />
+		<h1>ICode Framework</h1>
+		<br />
+		<p>A PHP Framework based on CodeIgniter Framework, trying to give it a step forward to keep on same page with PHP improvements</p>
+		<br />
+		<a href="https://github.com/SamDev/ICode/archive/master.zip" class="btn btn-large btn-primary">Download Framework</a>
+		<a href="https://github.com/SamDev/ICode" class="btn btn-large btn-info">Check on Github</a>
+		<br /><br />
+		<br />
+	  </section>
+	  <div id="page" class="container">
+		<section id="sidebar" class="span3">
+			<ul class="nav nav-tabs nav-stacked">
+				<li class="active"><a href="index.html">Basic Info</a></li>
+				<li><a href="installation.html">Installation</a></li>
+				<li><a href="#">Get Started</a></li>
+				<li><a href="#">Classes Reference</a></li>
+				<li><a href="#">Helpers Reference</a></li>
+				<li><a href="#">General Topics</a></li>
+				<li><a href="#">Tutorials</a></li>
+			</ul>
+		</section>
+		
+		<section id="content" class="span8">
+			Conent
+		</section>
+	  </div>
+	  
       <footer>
-       
+       Thank You for Using ICode Framework
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
   </body>
 </html>
