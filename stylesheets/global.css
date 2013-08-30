@@ -1,0 +1,16 @@
+#top-nav {background-color:#333;padding:10px;}
+#top-nav ul {width:1024px; margin:0 auto;}
+#top-nav ul li a {color:#fff;}
+#top-nav ul li a:hover {background-color:#0088cc;}
+
+#splash {padding:20px 0;box-sizing:border-box;border-radius:10px; margin-top:10px;background:url(../images/header-bg.jpg);color:#fff;text-align:center;}
+#splash p {margin:0 auto;line-height:30px;width:500px;}
+#page {margin-top:20px;line-height:28px;}
+#sidebar{margin-left:0;}
+footer{text-align: center;
+padding: 30px 0;
+margin-top: 70px;
+border-top: 1px solid #e5e5e5;
+background-color: #f5f5f5;}
+
+#sidebar ul li a:hover,#sidebar ul li.active a{background-color:#0088cc;color:#fff}
